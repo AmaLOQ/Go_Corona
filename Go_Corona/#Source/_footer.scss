@@ -1,0 +1,30 @@
+.footer {
+
+	padding: 45px 0;
+
+	&__comtainer {
+	}
+
+	// .footer__items
+
+	&__items {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		row-gap: 25px;
+		column-gap: 50px;
+	}
+
+	// .footer__item
+
+	&__item {
+	}
+	@media (max-width: 499.98px){
+		&__items{
+			flex-direction: column;
+		}
+		&{
+			padding: 10px 0;
+		}
+	}
+}
